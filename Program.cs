@@ -12,12 +12,12 @@ namespace AgeCalculator
             DateTime birthDate;
             while (true)
             {
-                Console.Write("Please enter your birth date (MM/DD/YYYY): ");
+                Console.Write("Please enter your birth date (DD/MM/YYYY): ");
                 string birthDateString = Console.ReadLine();
 
                 if (DateTime.TryParse(birthDateString, out birthDate))
                 {
-                    break; // Exit the loop if the date is valid
+                    break; 
                 }
                 else
                 {
@@ -26,7 +26,19 @@ namespace AgeCalculator
             }
 
             int age = CalculateAge(birthDate);
+            DateTime nextBirthday = GetNextBirthday(birthDate);
+            int daysUntilNextBirthday = (nextBirthday - DateTime.Today).Days;
+
             Console.WriteLine($"Hello {fullName}, you are {age} years old.");
+
+            if (daysUntilNextBirthday == 0)
+            {
+                Console.WriteLine("Happy Birthday!");
+            }
+            else
+            {
+                Console.WriteLine($"There are {daysUntilNextBirthday} days left until you turn {age + 1}.");
+            }
         }
 
         static int CalculateAge(DateTime birthDate)
@@ -40,6 +52,19 @@ namespace AgeCalculator
             }
 
             return age;
+        }
+
+        static DateTime GetNextBirthday(DateTime birthDate)
+        {
+            DateTime today = DateTime.Today;
+            DateTime nextBirthday = new DateTime(today.Year, birthDate.Month, birthDate.Day);
+
+            if (nextBirthday < today)
+            {
+                nextBirthday = nextBirthday.AddYears(1);
+            }
+
+            return nextBirthday;
         }
     }
 }
