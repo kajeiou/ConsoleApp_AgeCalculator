@@ -1,0 +1,15 @@
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\bin\Debug\net8.0\ConsoleApp_AgeCalculator.exe
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\bin\Debug\net8.0\ConsoleApp_AgeCalculator.deps.json
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\bin\Debug\net8.0\ConsoleApp_AgeCalculator.runtimeconfig.json
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\bin\Debug\net8.0\ConsoleApp_AgeCalculator.dll
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\bin\Debug\net8.0\ConsoleApp_AgeCalculator.pdb
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\obj\Debug\net8.0\ConsoleApp_AgeCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\obj\Debug\net8.0\ConsoleApp_AgeCalculator.AssemblyInfoInputs.cache
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\obj\Debug\net8.0\ConsoleApp_AgeCalculator.AssemblyInfo.cs
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\obj\Debug\net8.0\ConsoleApp_AgeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\obj\Debug\net8.0\ConsoleApp_AgeCalculator.sourcelink.json
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\obj\Debug\net8.0\ConsoleApp_AgeCalculator.dll
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\obj\Debug\net8.0\refint\ConsoleApp_AgeCalculator.dll
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\obj\Debug\net8.0\ConsoleApp_AgeCalculator.pdb
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\obj\Debug\net8.0\ConsoleApp_AgeCalculator.genruntimeconfig.cache
+C:\Users\Nabil\Desktop\Retail\E5\C#\Basic_Project\ConsoleApp_AgeCalculator\obj\Debug\net8.0\ref\ConsoleApp_AgeCalculator.dll
