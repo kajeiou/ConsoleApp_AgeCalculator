@@ -9,19 +9,24 @@ namespace AgeCalculator
             Console.Write("Please enter your full name: ");
             string fullName = Console.ReadLine();
 
-            Console.Write("Please enter your birth date (MM/DD/YYYY): ");
-            string birthDateString = Console.ReadLine();
-
-            if (DateTime.TryParse(birthDateString, out DateTime birthDate))
+            DateTime birthDate;
+            while (true)
             {
-                int age = CalculateAge(birthDate);
+                Console.Write("Please enter your birth date (MM/DD/YYYY): ");
+                string birthDateString = Console.ReadLine();
 
-                Console.WriteLine($"Hello {fullName}, you are {age} years old.");
+                if (DateTime.TryParse(birthDateString, out birthDate))
+                {
+                    break; // Exit the loop if the date is valid
+                }
+                else
+                {
+                    Console.WriteLine("Invalid birth date format. Please try again.");
+                }
             }
-            else
-            {
-                Console.WriteLine("Invalid birth date format. Please try again.");
-            }
+
+            int age = CalculateAge(birthDate);
+            Console.WriteLine($"Hello {fullName}, you are {age} years old.");
         }
 
         static int CalculateAge(DateTime birthDate)
